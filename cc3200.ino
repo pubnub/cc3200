@@ -39,13 +39,15 @@
 #include <PubNub.h>
 #include <aJSON.h>
 
-static char ssid[] = "UNITE-5B09";    // your network SSID (name)
-static char pass[] = "43071046"; // your network password
+static char ssid[] = "your_wifi_ssid";    // your network SSID (name)
+static char pass[] = "your_wifi_pw"; // your network password
 
 static int keyIndex = 0;               // your network key Index number (needed only for WEP)
 
-const static char pubkey[] = "demo-36";
-const static char subkey[] = "demo-36";
+# get your keys at http://www.pubnub.com/developers
+
+const static char pubkey[] = "your_pub_key";
+const static char subkey[] = "your_sub_key";
 const static char channel[] = "hello_ti";
 int sn = 0;
 BMA222 mySensor;
