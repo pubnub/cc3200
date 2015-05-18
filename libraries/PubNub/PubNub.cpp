@@ -217,7 +217,7 @@ enum PubNub_BH PubNub::_request_bh(PubNub_BASE_CLIENT &client, unsigned long t_s
 {
 	/* Finish the first line of the request. */
 	client.print(qparsep);
-	client.print("pnsdk=PubNub-Arduino/1.0 HTTP/1.1\r\n");
+	client.print("pnsdk=PubNub-TICC3200/1.0 HTTP/1.1\r\n");
 	/* Finish HTTP request. */
 	client.print("Host: ");
 	client.print(origin);
