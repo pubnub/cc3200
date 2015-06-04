@@ -14,6 +14,14 @@ In addition, it uses a tweaked version of the Adafruit temperature sensor, with 
  
 This should be enough to get you started with the TI CC3200 Launchpad via Energia with PubNub. For any other assistance with PubNub on this or any other MCUs, shoot us an email at support.
 
+This sample project uses:
+
+https://github.com/adafruit/Adafruit_TMP006 @ dca895a75b21488e0a8c70b3d8266d525dbf34ac
+
+and
+
+https://github.com/adafruit/Adafruit_Sensor @ 88ae805bce7029804ab888b0e6577dcf2a7694b2
+
 #### TODO
 This demo uses the aJson lib, but there may be efficiencies to be gained by programatically assembling the JSON by hand instead.
 
